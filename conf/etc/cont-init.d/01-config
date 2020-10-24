@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv  sh
+
+sed -i "s/{{SYNAPSE_SERVER_URL}}/$SYNAPSE_SERVER_URL/g" /var/www/element/config.json
+sed -i "s/{{SYNAPSE_SERVER_DOMAIN}}/$SYNAPSE_SERVER_DOMAIN/g" /var/www/element/config.json
+sed -i "s/{{ELEMENT_SERVER_NAME}}/$ELEMENT_SERVER_NAME/g" /var/www/element/config.json
+sed -i "s/{{ELEMENT_BACKGROUND_URL}}/$ELEMENT_BACKGROUND_URL/g" /var/www/element/config.json
+sed -i "s/{{ELEMENT_LOGO_URL}}/$ELEMENT_LOGO_URL/g" /var/www/element/config.json
