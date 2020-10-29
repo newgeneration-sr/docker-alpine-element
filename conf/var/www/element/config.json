@@ -28,7 +28,7 @@
         "{{SYNAPSE_SERVER_URL}}": true
     },
     "jitsi": { 
-        "preferredDomain": "{{SYNAPSE_SERVER_DOMAIN}}" 
+        "preferredDomain": "{{ELEMENT_JITSI}}" 
     },
     "terms_and_conditions_links": [
         {
