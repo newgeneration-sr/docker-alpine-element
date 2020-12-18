@@ -11,7 +11,7 @@ RUN L=$(curl -s https://api.github.com/repos/vector-im/element-web/releases/late
     && wget $L -O /tmp/element.tar.gz \
     && cd /tmp/ \
     && tar -xzf /tmp/element.tar.gz \
-    && rm /tmp/element.tar.gz &&
+    && rm /tmp/element.tar.gz \
     && mv /tmp/element-*/ /var/www/element
 
 
