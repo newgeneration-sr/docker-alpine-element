@@ -1,6 +1,6 @@
 ![docker build automated](https://img.shields.io/docker/cloud/automated/dotriver/element)
 ![docker build status](https://img.shields.io/docker/cloud/build/dotriver/element)
-![docker build status](https://img.shields.io/docker/cloud/pulls/dotriver/element)
+![docker build status](https://img.shields.io/docker/pulls/dotriver/element)
 
 # Element (Riot) on Alpine Linux + S6 Overlay
 
