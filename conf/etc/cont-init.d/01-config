@@ -10,3 +10,4 @@ then
     ELEMENT_JITSI="jitsi.riot.im"
 fi 
 sed -i "s#{{ELEMENT_JITSI}}#$ELEMENT_JITSI#g" /var/www/element/config.json
+sed -i 's|</title>|</title>\n    <script>window.addEventListener("message",(e) => {if(e.data.id === "nuveapaas"){mxSettingsStore.setValue("theme", null, "device", (!e.data.dark_mode ? "dark" : "light" ));mxSettingsStore.setValue("theme", null, "device", (e.data.dark_mode ? "dark" : "light" ));}}, false);</script>|g' /var/www/element/index.html
